@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+#feline {
+    position: absolute;
+    width: 781px;
+    height: 1641.58px;
+    left: 738px;
+    top: 502.42px;
+    background-image: url("../../images/greenbg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 781px 1387px;
+}
+
+#feline-img {
+    width: 499px;
+    height: 500px;
+    background-image: url("../../images/felinemaster.png");
+    background-size: cover;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#comingsoon {
+    position: absolute;
+    width: 427.24px;
+    height: 160.08px;
+    left: 75px;
+    top: 600px;
+    background-image: url("../../images/comingsoon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#feline-text {
+    position: absolute;
+    width: 478.2px;
+    height: 367.24px;
+    left: 86px;
+    top: 950px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #0B0B0B;
+
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+#token {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    width: 442px;
+    height: 410px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#tokentitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    width: 234px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#chestinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 46px;
+    width: 442px;
+    height: 314px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+    width: 157px;
+    height: 314px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+    width: 239px;
+    height: 314px;
+    flex: none;
+    order: 1;
+}
+
+.chestbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 239px;
+    height: 144px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.chest {
+    background-image: url("../../images/chest.png");
+    width: 95px;
+    height: 102px;
+}
+
+.chest-text-row1{
+    width: 157px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.chest-text-row2 {
+    width: 239px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

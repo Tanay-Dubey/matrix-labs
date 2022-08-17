@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.canine {
+    position: absolute;
+    width: 755px;
+    height: 1641.58px;
+    top: 502.42px;
+    background-image: url("../../images/blackbg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:100%;
+}
+
+.canine-master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 57px;
+    position: absolute;
+    width: 499.35px;
+    height: 1510.52px;
+    left: 65.68px;
+}
+
+.canine-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+    width: 499px;
+    height: 825.52px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.canine-img {
+    width: 499px;
+    height: 500px;
+    background-image: url("../../images/caninemaster.png");
+    background-size: cover;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+    /* @media screen and (max-width:428px) {
+        .canine{
+            width:100%
+        }
+    } */

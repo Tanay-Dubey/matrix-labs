@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.navbar {
+    position: absolute;
+    width:100%;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+    min-width: 1519px;
+}
+
+.matrixlogo {
+    position: absolute;
+    width: 173px;
+    height: 136px;
+    left: -1px;
+}
+
+.matrixtitle {
+    position: absolute;
+    width: 192px;
+    height: 136px;
+    left: 156px;
+    top: 0px;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.navlinks {
+    position: absolute;
+    width: 519px;
+    height: 44px;
+    left: 660px;
+    top: 46px;
+    font-family: 'Oswald';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.connectbtn {
+    position: absolute;
+    width: 176px;
+    height: 60px;
+    left: 1211px;
+    top: 38px;
+    background: #3DBA41;
+    border-radius: 50px;
+}
+
+.connect-text {
+    position: absolute;
+    width: 104px;
+    height: 44px;
+    left: 34px;
+    top: 6px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+
+@media screen and (max-width:428px) {
+    .navbar{
+        height: 148px;
+    }
+    .menu{
+        position: absolute;
+    background-image: url("../../images/Menu.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    right: 31px;
+    top: 51px;
+    width: 60px;
+    height: 39px;
+    }
+    .navlinks{
+        display: none;
+    }
+}
