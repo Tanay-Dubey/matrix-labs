@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/matrix-labs/static/css/main.c74062e4.css",
+    "main.js": "/matrix-labs/static/js/main.6bffaf8f.js",
+    "static/js/787.e3d7859a.chunk.js": "/matrix-labs/static/js/787.e3d7859a.chunk.js",
+    "static/media/felinemaster.png": "/matrix-labs/static/media/felinemaster.cc77ded78620d004acfa.png",
+    "static/media/caninemaster.png": "/matrix-labs/static/media/caninemaster.1faf988481be76e6d0c1.png",
+    "static/media/comingsoon.png": "/matrix-labs/static/media/comingsoon.7220282eeabf243077b8.png",
+    "static/media/greybg.png": "/matrix-labs/static/media/greybg.15b921bd97907fbfffaa.png",
+    "static/media/chest.png": "/matrix-labs/static/media/chest.d35c13da18d9142c8c35.png",
+    "static/media/blackbg.png": "/matrix-labs/static/media/blackbg.bb652cf7476c0b1a47f3.png",
+    "static/media/greenbg.png": "/matrix-labs/static/media/greenbg.deb7bc9f85bdefc14465.png",
+    "index.html": "/matrix-labs/index.html",
+    "main.c74062e4.css.map": "/matrix-labs/static/css/main.c74062e4.css.map",
+    "main.6bffaf8f.js.map": "/matrix-labs/static/js/main.6bffaf8f.js.map",
+    "787.e3d7859a.chunk.js.map": "/matrix-labs/static/js/787.e3d7859a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c74062e4.css",
+    "static/js/main.6bffaf8f.js"
+  ]
+}
