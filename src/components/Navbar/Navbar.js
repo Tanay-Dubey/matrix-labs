@@ -1,28 +1,25 @@
 import React from 'react';
 import "./Navbar.css";
-import  matrixLogo from "../../images/matrixlogo.png";
 
 const Navbar = () => {
     return (
-        <div className="navbar">
-            <div className="matrixlogo">
-                <img src={matrixLogo}></img>
-            </div>
-            <div className="matrixtitle">
-                <div>MATRIX LABS</div>
-            </div>
-            <div className="navlinks">
-                <div>Home</div>
-                <div>About</div>
-                <div>Whitepaper</div>
-                <div>Audit</div>
-                <div>Telegram</div>
-            </div>
-            <button className="connectbtn">
-                <div className='connect-text'>CONNECT</div>
-            </button>
-            <div className='menu'></div>
+        <div className="Navbar">
+        <div>
+          <div className="Navs">
+            <span>Product</span>
+            <span>Key Features</span>
+            <span>Why Wetrack</span>
+            <span>Applications</span>
+            <span>Careers</span>
+            <span>Pricing</span>
+          </div>
+          <div className="Buttons">
+            <button>Log In</button>
+            <button>Try For Free</button>
+          </div>
+          
         </div>
+      </div>
     );
 };
 
